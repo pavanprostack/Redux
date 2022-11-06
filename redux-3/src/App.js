@@ -5,6 +5,7 @@ import Message from './Message/Message'
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 // import Navbar from './Navbar/Navbar'
 import Product from './Product/Product'
+import Product2 from './Product2/Product2'
 
 const App = () => {
   return <>
@@ -12,6 +13,7 @@ const App = () => {
   <h1>Redux Full Concept</h1>
   <Message />
   <Product />
+  <Product2 />
 </Provider>
 
 {/* 
