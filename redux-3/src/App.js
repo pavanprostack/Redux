@@ -6,6 +6,7 @@ import Message from './Message/Message'
 // import Navbar from './Navbar/Navbar'
 import Product from './Product/Product'
 import Product2 from './Product2/Product2'
+import Message2 from './Message2/Message2'
 
 const App = () => {
   return <>
@@ -14,6 +15,7 @@ const App = () => {
   <Message />
   <Product />
   <Product2 />
+  <Message2/>
 </Provider>
 
 {/* 
