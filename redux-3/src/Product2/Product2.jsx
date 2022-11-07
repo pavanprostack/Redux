@@ -36,6 +36,7 @@ const Product2 = () => {
                         <td>{product.name}</td>
                         <td>{product.price}</td>
                         <td><button onClick={decrHandler}>-</button>{product.qty}<button onClick={incrHandler}>+</button></td>
+                        <td>{product.price*product.qty}</td>
                     </tr>
                 </tbody>
             </table>
