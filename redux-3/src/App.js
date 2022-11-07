@@ -13,7 +13,6 @@ const App = () => {
       <Provider store={store}>
         <Router>
           <Navbar />
-          <h1>Complete Redux Concept</h1>
           <Routes>
             <Route path='/message' element={<Message />} />
             <Route path='/product' element={<Product />} />
