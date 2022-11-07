@@ -7,7 +7,7 @@ const User = () => {
 
     let dispatch = useDispatch()
     let users = useSelector((state)=>{
-        return state
+        return state.user
     })
 
     useEffect(()=>{
