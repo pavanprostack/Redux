@@ -17,9 +17,9 @@ let user1Reducer = (state = initialState, action) => {
             return { ...state, users: payload }
         case USER1_FAILURE:
             return { ...state, errorMessage: payload, loading: false }
-            default :
+        default:
             return state
     }
 }
 
-export {user1Reducer}
+export { user1Reducer }

@@ -1,16 +1,16 @@
 // Action Types
- 
- const INCR = "INCR"
+
+const INCR = "INCR"
 const DECR = "DECR"
 
 // Actions                // Action returns Actionable Object.
 
-let decrAction =()=>{
-    return {type:DECR} 
+let decrAction = () => {
+    return { type: DECR }
 }
 
-let  incrAction =()=>{
-    return {type:INCR}
+let incrAction = () => {
+    return { type: INCR }
 }
 
-export {decrAction, incrAction, INCR, DECR }
+export { decrAction, incrAction, INCR, DECR }

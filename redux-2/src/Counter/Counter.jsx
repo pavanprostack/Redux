@@ -35,8 +35,8 @@ const Counter = () => {
                     <tr>
                         <td>{counter.name}</td>
                         <td>{counter.price}</td>
-                        <td>{(counter.qty<=0)?<i className='fa fa-minus-circle' onClick={decrHandler}></i>:<i className='fa fa-minus-circle' onClick={decrHandler}></i>} {counter.qty} <i className='fa fa-plus-circle' onClick={incrHandler}></i></td>
-                        {/* <td><i className='fa fa-minus-circle' onClick={decrHandler}></i> {counter.qty} <i className='fa fa-plus-circle' onClick={incrHandler}></i></td> */}
+                        {/* <td>{(counter.qty<=0)?<i className='fa fa-minus-circle' onClick={decrHandler}></i>:<i className='fa fa-minus-circle' onClick={decrHandler}></i>} {counter.qty} <i className='fa fa-plus-circle' onClick={incrHandler}></i></td> */}
+                        <td><i className='fa fa-minus-circle' onClick={decrHandler}></i> {counter.qty} <i className='fa fa-plus-circle' onClick={incrHandler}></i></td>
                         <td>{counter.price * counter.qty}</td>
                     </tr>
                 </tbody>
